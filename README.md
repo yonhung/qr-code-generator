@@ -2,6 +2,7 @@
 
 This is a simple QR code generator app using [qrcode.js](http://davidshimjs.github.io/qrcodejs/)
 
+[live site](https://yonhung.github.io/qr-code-generator)
 ## Table of contents
 
 - [Overview](#overview)
