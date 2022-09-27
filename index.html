@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>QR code generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="qr-container">
+      <div class="qr-image"></div>
+      <form action="" class="qr-form">
+        <div class="form-control">
+          <label for="qr-url">Your URL</label>
+          <input id="qr-url" type="text">
+        </div>
+        <button class="qr-generate-btn">GENERATE</button>
+      </form>
+      <div class="qr-description">
+        <p>
+          Input your url to generate a qr code
+        </p>
+      </div>
+    </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </body>
+</html>
