@@ -21,10 +21,13 @@
           <label for="qr-url">Your URL</label>
           <input id="qr-url" type="text">
         </div>
-        <button class="qr-generate-btn">GENERATE</button>
+        <div class="qr-btns">
+          <button class="qr-btn" type="submit">GENERATE</button>
+          <a hidden id="qr-save-btn"><button class="qr-btn" type="button">SAVE</button></a>
+        </div>
       </form>
       <div class="qr-description">
-        <p>
+        <p id="text">
           Input your url to generate a qr code
         </p>
       </div>
